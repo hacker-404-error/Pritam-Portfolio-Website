@@ -811,6 +811,13 @@ footer .text span a:hover {
   section .content {
     width: 85%;
   }
+  #timeline {
+    display: flex;
+    flex-direction: column;
+    background-color: #031625;
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 @media (max-width: 1000px) {
@@ -834,6 +841,13 @@ footer .text span a:hover {
     margin: 20px 0;
     width: calc(100% / 2 - 20px);
   }
+  #timeline {
+    display: flex;
+    flex-direction: column;
+    background-color: #031625;
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 @media (max-width: 900px) {
@@ -841,6 +855,13 @@ footer .text span a:hover {
     height: 350px;
     width: 350px;
   }
+  #timeline {
+    display: flex;
+    flex-direction: column;
+    background-color: #031625;
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 @media (max-width: 750px) {
@@ -919,6 +940,13 @@ footer .text span a:hover {
   .contact .text {
     width: 100%;
   }
+  #timeline {
+    display: flex;
+    flex-direction: column;
+    background-color: #031625;
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 @media (max-width: 500px) {
@@ -939,6 +967,13 @@ footer .text span a:hover {
       padding-top: 85px;
       padding-bottom: 310px;
   }
+  #timeline {
+    display: flex;
+    flex-direction: column;
+    background-color: #031625;
+    flex-direction: column;
+    align-items: center;
+}
 }
 
 
