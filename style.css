@@ -22,7 +22,24 @@ body
 }
 
 a:link {
+  color: rgb(27, 185, 182);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(27, 185, 182);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
   color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
 /* Custom Scroll Bar CSS */
@@ -526,9 +543,9 @@ time {
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
  I'm Selecting Directly 'Section Tag' and 'Class'  */
-section {
-  padding-top: 85px;
-  padding-bottom: 310px;
+ section {
+  padding-top: 45px;
+  padding-bottom: 85px;
 }
 
 section .content {
@@ -826,6 +843,9 @@ footer .text span a:hover {
 .tl-year {
   top: 55%;
   width: 56vw;
+}
+#timeline:hover .tl-item {
+  width: 90%;
 }
 }
 
@@ -1199,4 +1219,9 @@ h2 {
 .project {
   background-image: url("https://c4.wallpaperflare.com/wallpaper/61/984/903/simple-background-gradient-wallpaper-preview.jpg");
   background-attachment: fixed;
+}
+
+.home{
+  padding-top: 85px;
+  padding-bottom: 310px;
 }
