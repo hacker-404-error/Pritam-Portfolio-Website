@@ -841,10 +841,13 @@ footer .text span a:hover {
   width: 96% !important;
 }
 .tl-year {
-  top: 55%;
-  width: 56vw;
+  top: 50%;
+  width: 54%;
 }
 #timeline:hover .tl-item {
+  width: 90%;
+}
+#timeline .t1-item{
   width: 90%;
 }
 }
