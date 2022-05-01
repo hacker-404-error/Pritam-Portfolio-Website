@@ -823,6 +823,10 @@ footer .text span a:hover {
 .tl-item:hover {
   width: 96% !important;
 }
+.tl-year {
+  top: 55%;
+  width: 56vw;
+}
 }
 
 @media (max-width: 1000px) {
