@@ -841,8 +841,8 @@ footer .text span a:hover {
   width: 96% !important;
 }
 .tl-year {
-  top: 50%;
-  width: 54%;
+  top: 45%;
+  width: 58%;
 }
 #timeline:hover .tl-item {
   width: 90%;
