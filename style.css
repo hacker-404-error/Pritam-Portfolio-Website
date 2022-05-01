@@ -797,13 +797,15 @@ footer .text span a:hover {
   bottom: 20px;
   right: 20px;
   color: #fff;
-  background: #4070f4;
+  background: #4070f491;;
   padding: 7px 12px;
-  ;
+  z-index: 999;
   font-size: 18px;
   border-radius: 6px;
   box-shadow: rgba(0, 0, 0, 0.15);
   display: none;
+  border: 2px solid #4070f4;
+
 }
 
 /* Responsive Media Query */
@@ -817,6 +819,9 @@ footer .text span a:hover {
     background-color: #031625;
     flex-direction: column;
     align-items: center;
+}
+.tl-item:hover {
+  width: 96% !important;
 }
 }
 
@@ -848,6 +853,9 @@ footer .text span a:hover {
     flex-direction: column;
     align-items: center;
 }
+.tl-item:hover {
+  width: 96% !important;
+}
 }
 
 @media (max-width: 900px) {
@@ -861,6 +869,9 @@ footer .text span a:hover {
     background-color: #031625;
     flex-direction: column;
     align-items: center;
+}
+.tl-item:hover {
+  width: 96% !important;
 }
 }
 
@@ -947,6 +958,9 @@ footer .text span a:hover {
     flex-direction: column;
     align-items: center;
 }
+.tl-item:hover {
+  width: 96% !important;
+}
 }
 
 @media (max-width: 500px) {
@@ -973,6 +987,34 @@ footer .text span a:hover {
     background-color: #031625;
     flex-direction: column;
     align-items: center;
+}
+.tl-item:hover {
+  width: 96% !important;
+}
+.tl-item
+{
+  width: 90% ;
+}
+.about{
+  padding-top: 85px;
+  padding-bottom: 10px;
+}
+.education
+{
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.timeline  {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.skills  {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.project  {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 }
 
